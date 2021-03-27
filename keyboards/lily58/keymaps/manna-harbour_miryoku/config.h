@@ -1,5 +1,7 @@
 // generated from users/manna-harbour_miryoku/miryoku.org  -*- buffer-read-only: t -*-
 
+#define MASTER_RIGHT
+
 #pragma once
 
 #define XXX KC_NO
