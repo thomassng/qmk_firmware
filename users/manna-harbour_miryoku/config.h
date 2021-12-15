@@ -7,8 +7,12 @@
 //#define SSD1306OLED
 
 #undef RGBLED_NUM
-#define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 27
+//#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define RGBLIGHT_EFFECT_TWINKLE
+#define RGBLED_NUM 17
+#define RGBLED_SPLIT { 9, 8 }
 #define RGBLIGHT_LIMIT_VAL 120
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
@@ -23,7 +27,7 @@
 #define IGNORE_MOD_TAP_INTERRUPT
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
-#define TAPPING_FORCE_HOLD
+#define TAPPING_FORCE_HOLD_PER_KEY
 
 // Auto Shift
 #define NO_AUTO_SHIFT_ALPHA
